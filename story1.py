@@ -8,5 +8,13 @@ def story():
     text = ""
     text += "One day I went to the " + location1
     text += ". It was like a " + temperature1
-    text += " out."    
+    text += " out."
+    text += " I looked for my friend " + Name 
+    text += " s/he was always later so I " + Noune 
+    text += " it was " + time " when s/he arived " 
+    text += " I asked " + Name " what took him/her " + Noune
+    text += " s/he said " + pronoune " was wasting my time"
+    text += " 
+    +
     return text
+
