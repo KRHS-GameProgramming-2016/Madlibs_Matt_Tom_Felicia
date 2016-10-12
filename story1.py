@@ -23,13 +23,13 @@ def story():
     text += " out."
     text += " I looked for my friend " + Name1 
     text += " s/he was always later so I " + Noun1 
-    text += " it was " + time " when s/he arived " 
-    text += " I asked " + Name2 " what took him/her " + Noun2
-    text += " s/he said " + Name " was talking to me about" + pronoun1
+    text += " it was " + time + " when s/he arived " 
+    text += " I asked " + Name2 + " what took him/her " + Noun2
+    text += " s/he said " + Name + " was talking to me about" + pronoun1
     text += " I looked at her/him and thought of " + Noun3
-    text += " but then " + name " walked up to me and asked me if I was ok I said" + adajetive
-    text += " I then sais we shoud go to " + restrontName " for lunch "
-    text += " I know how much " + Name " loved there" + Food
+    text += " but then " + name + " walked up to me and asked me if I was ok I said" + adajetive
+    text += " I then sais we shoud go to " + restrontName + " for lunch "
+    text += " I know how much " + Name + " loved there" + Food
     text += " we starwd walking to " + restront Name 
     text += " we stard taking about " + Noun2
     text += " after some time past we made it to the restront I looked at my wach to see it wat " + time 
@@ -42,6 +42,6 @@ def story():
     text +="
     
     
-    +
+    
     return text
 
