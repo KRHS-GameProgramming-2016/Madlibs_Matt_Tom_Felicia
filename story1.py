@@ -25,11 +25,10 @@ def story():
     text += " she was just getting back from " + city
     text += " her plane was landing at " + time 
     text += " I see that I have time to eat with my friend " + Name 
-    text += " then we see one of owe othre frineds " +Name 
-    text += "S/he came and ate with use and talk   "+ pronoun
-    text +="
+    text += " then we see a friend from work " +Name 
+    text += "S/he wlked over to use and asked us about " + pronoun
+    text += " 
     
-    
-    
+    +
     return text
 
