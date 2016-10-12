@@ -4,7 +4,19 @@ from input import *
 def story():
     location1 = getWord("Enter a location: ")
     temperature1 = getNumber("Enter a Number: ")
-    
+    name1 = getWord ("Enter a name")
+    noun1 = getWord ("Enter a noun")
+    time = getNumber ("Enter a time")
+    pronoun1 = getWord ("Enter a pronoun")
+    adajetive = getWord ("Enter a adajetive")
+    restrontName =getWord ("Enter a restrontName")
+    city = getWord ("Enter a city")
+    pronoun2 = getWord ("Enter a pronoun")
+    name2 = getWord ("Enter a name")
+    name3 = getWord ("Enter a name")
+    name4 = getWord ("Enter a name")
+    name5 = getWord ("Enter a name")
+     
     text = ""
     text += "One day I went to the " + location1
     text += ". It was like a " + temperature1
