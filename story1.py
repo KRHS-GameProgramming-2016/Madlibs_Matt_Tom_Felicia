@@ -19,13 +19,13 @@ def story():
     Noun3 = getWord ( "Enter a noun: " )
     Noun4 = getWord ( "Enter a noun: " )
     Noun5 = getWord ( "Enter a noun: " )
+    Noun6 = getWord ( "Enter a noun: " )
     Verb1 = getWord ( "Enter a noun: " )
     Pronoun1 = getWord ( "Enter a pronoun: " )
     Pronoun2 = getWord ( "Enter a pronoun: " )
     Food1 = getword ( "Enter a Food: " )
     Food2 = getword ( "Enter a Food: " )
-    BodyMoveMent = getword ( "Enter BodyMoveMent: " )
-    
+   
     
     text = ""
     text += "One day I went to the " + Location1
@@ -33,7 +33,7 @@ def story():
     text += " out."
     text += " I looked for my friend " + Name1  
     text += " s/he was always later so I " + Noun1 
-    text += " it was " + Time1  " when s/he arived. I looked at her/him and" + BodyMoveMent
+    text += " it was " + Time1  " when s/he arived. I looked at her/him and" + Verb1
     text += " I asked " + Name1 " what took him/her so " + Noun2 
     text += " s/he said " + Name2  " was talking to S/he about" + Pronoun1 
     text += " I looked at her/him and thought of " + Noun3 
@@ -50,7 +50,7 @@ def story():
     text += " then we see a friend from work " + Name4 +
     text += "S/he wlked over to use and asked us about " + Pronoun2 
     text += " I look at S/he lost I don't know what to say so I ask " + Noun5 
-    text += " We all just sand in silens it feels so " + Verb1 
+    text += " We all just sand in silens it feels so " + Noun6 
     text += " Then the waiter walks up to the table and ask " + Adajetive2 
     text += " I tell the waiter what I want then I order for my frien I get her/him " + Food2 
     text += " 
