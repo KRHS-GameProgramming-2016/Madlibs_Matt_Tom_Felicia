@@ -33,7 +33,7 @@ def story():
     text += " out."
     text += " I looked for my friend " + Name1  
     text += " s/he was always later so I " + Noun1 
-    text += " it was " + Time1  " when s/he arived. I looked at her/him and " + BodyMoveMent
+    text += " it was " + Time1  " when s/he arived. I looked at her/him and" + BodyMoveMent
     text += " I asked " + Name1 " what took him/her so " + Noun2 
     text += " s/he said " + Name2  " was talking to S/he about" + Pronoun1 
     text += " I looked at her/him and thought of " + Noun3 
