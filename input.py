@@ -44,6 +44,18 @@ def getWord(prompt):
             print "Don't use that kind of language with me!"
         return response
 
+# by matthew     
+def getTalk(prompt):
+	goodInput = False
+	while not goodInput:
+		response = raw_input(prompt)
+		if response[0] == '"' and response[-1] == '"':
+			goodInput = True
+		else:
+			print "Make sure you got quotes around the sentence!"
+	return str(response) 
+		
+
 def getNumber(prompt):
     goodInput = False
     numbers = "0123456789."
@@ -54,7 +66,7 @@ def getNumber(prompt):
             if character not in numbers:
                 goodInput = False
                 print "Numbers only please!"
-    return response
+    return str(response)
         
         
 
