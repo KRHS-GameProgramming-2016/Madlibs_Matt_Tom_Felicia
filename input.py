@@ -70,7 +70,7 @@ def getNumber(prompt):
     return str(response)
     
     # by Felicia   
-def getNumber(name): 
+def getNumber(name):  
     goodInput = False
     letters = "abcdefghijklmnopqrstuvwxyz."
     while not goodInput:
