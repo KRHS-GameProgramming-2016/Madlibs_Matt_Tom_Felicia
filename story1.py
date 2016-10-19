@@ -27,7 +27,6 @@ def story():
     text += " I see that I have time to eat with my friend " + Name 
     text += " then we see one of owe othre frineds " +Name 
     text += "S/he came and ate with use and talk   "+ pronoun
-    text +="
     
     
     
