@@ -14,7 +14,8 @@ def isSwear(word):
                  "tits",
                  "boobs",
                  "cock",
-                 "anus"]
+                 "anus",
+                 "vagina"]
     if word in swearList:
         return True
     else:
