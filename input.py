@@ -68,6 +68,21 @@ def getNumber(prompt):
                 goodInput = False
                 print "Numbers only please!"
     return str(response)
+    
+    # by Felicia   
+def getNumber(name): 
+    goodInput = False
+    letters = "abcdefghijklmnopqrstuvwxyz."
+    while not goodInput:
+        response = raw_input(name)
+        goodInput = True
+        for character in response:
+            if character not in letters:
+                goodInput = False
+                print "letters only please!"
+    return str(response)
+    
+    
         
         
 
