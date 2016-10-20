@@ -70,6 +70,17 @@ def getNumber(prompt):
     return str(response)
         
         
+#by Tommy
+def getGender(prompt):
+    goodInput = False
+    genders = "Man","Girl"
+    while not goodInput:
+        response = raw_input(prompt)
+        goodInput = True
+        if getNumber(response):
+            goodInput = False
+            print " please only gender!"
+    return str(response)
 
 
 
