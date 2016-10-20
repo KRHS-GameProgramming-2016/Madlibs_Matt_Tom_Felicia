@@ -3,9 +3,9 @@ form input import *
 #written by Tommy
 def story():
     
-    NameOfFood1=getNumber (" Enter NameoFFood")
-    NameOfFood2=getNumber (" Enter NameoFFoood")
-    NameOfFood3=getNumber (" Enter NameoFFoood")
+    NameOfFood1=getwords (" Enter NameoFFood")
+    NameOfFood2=getwords (" Enter NameoFFoood")
+    NameOfFood3=getwords (" Enter NameoFFoood")
     Name=getNumber (" Enter Name")
     Noun1=getNumber (" Enter Noun")
     Noun2=getNumber (" Enter Noun")
